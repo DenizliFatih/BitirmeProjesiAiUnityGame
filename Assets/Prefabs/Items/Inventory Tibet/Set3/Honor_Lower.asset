@@ -1,0 +1,332 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25e7ff5b3ce840cd941cc265f0dfce0, type: 3}
+  m_Name: Honor_Lower
+  m_EditorClassIdentifier: 
+  m_ID:
+    m_SerializedID:
+      m_String: sword_wood
+  m_Parent: {fileID: 11400000, guid: 646753017ce323f4380d9d6c770243ca, type: 2}
+  m_Prefab: {fileID: 0}
+  m_CanDrop:
+    m_IsEnabled: 1
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  m_Info:
+    m_Name:
+      m_Property:
+        rid: 2531411309620625461
+    m_Description:
+      m_Property:
+        rid: 2531411309620625462
+    m_Sprite:
+      m_Property:
+        rid: 2531411309620625463
+    m_Color:
+      m_Property:
+        rid: 252482452083704094
+  m_Shape:
+    m_Width: 1
+    m_Height: 1
+    m_Weight: 5
+    m_MaxStack: 1
+  m_Price:
+    m_Currency: {fileID: 11400000, guid: f161451dbe0f54fedbaaa28716337778, type: 2}
+    m_Value: 50
+    m_CanBuyFromMerchant: 1
+    m_CanSellToMerchant: 1
+  m_Properties:
+    m_InheritFromParent: 1
+    m_List:
+    - m_IsExpanded: 1
+      m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: constitution
+      m_Visible: 0
+      m_Icon: {fileID: 21300000, guid: 3fd3d75b5568d49eda17853d68111011, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 4
+      m_Text:
+        m_Property:
+          rid: 252482452083703985
+    - m_IsExpanded: 1
+      m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: defense
+      m_Visible: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 35
+      m_Text:
+        m_Property:
+          rid: 6827530138343440817
+    m_Overrides:
+      m_Keys:
+      - m_String: attack
+      - m_String: defense
+      m_Values:
+      - m_Override: 0
+        m_Number: 0
+      - m_Override: 0
+        m_Number: 35
+  m_Sockets:
+    m_InheritFromParent: 1
+    m_List: []
+    m_PrefabSocket: {fileID: 0}
+  m_Equip:
+    m_IsEquippable: 1
+    m_Prefab: {fileID: 0}
+    m_ConditionsEquip:
+      m_Conditions:
+        m_Conditions: []
+    m_InstructionsOnEquip:
+      m_Instructions:
+        m_Instructions:
+        - rid: 252482333707075638
+        - rid: 252482333707075641
+        - rid: 252482452083703987
+        - rid: 252482452083703990
+    m_InstructionsOnUnequip:
+      m_Instructions:
+        m_Instructions:
+        - rid: 252482419641286674
+        - rid: 252482419641286677
+        - rid: 252482452083703993
+        - rid: 252482452083703996
+    m_ExecuteFromParent: 0
+  m_Usage:
+    m_CanUse: 0
+    m_ConsumeWhenUse: 1
+    m_ConditionsCanUse:
+      m_Conditions:
+        m_Conditions: []
+    m_InstructionsOnUse:
+      m_Instructions:
+        m_Instructions: []
+    m_ExecuteFromParent: 0
+  m_Crafting:
+    m_Ingredients: []
+    m_CanCraft: 0
+    m_ConditionsCraft:
+      m_Conditions:
+        m_Conditions: []
+    m_InstructionsOnCraft:
+      m_Instructions:
+        m_Instructions: []
+    m_CanDismantle: 0
+    m_ConditionsDismantle:
+      m_Conditions:
+        m_Conditions: []
+    m_InstructionsOnDismantle:
+      m_Instructions:
+        m_Instructions: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 252482333707075638
+      type: {class: InstructionCharacterPutOnSkinMesh, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Prefab:
+          m_Property:
+            rid: 252482333707075639
+        m_OnCharacter:
+          m_Property:
+            rid: 252482333707075640
+    - rid: 252482333707075639
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 334055037126371135, guid: 6488a6690b54cfc4bab318596baf1b43, type: 3}
+    - rid: 252482333707075640
+      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 252482333707075641
+      type: {class: InstructionCharacterPutOnSkinMesh, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Prefab:
+          m_Property:
+            rid: 252482333707075642
+        m_OnCharacter:
+          m_Property:
+            rid: 252482333707075643
+    - rid: 252482333707075642
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 334055037126371135, guid: 6488a6690b54cfc4bab318596baf1b43, type: 3}
+    - rid: 252482333707075643
+      type: {class: GetGameObjectGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: game-object
+          m_Variable: {fileID: 11400000, guid: ff2362776209fa84db1877ae6cbb382e, type: 2}
+          m_Name:
+            m_String: InvCharacter
+            m_ID: -664263210
+    - rid: 252482419641286674
+      type: {class: InstructionCharacterTakeOffSkinMesh, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Prefab:
+          m_Property:
+            rid: 252482419641286675
+        m_FromCharacter:
+          m_Property:
+            rid: 252482419641286676
+    - rid: 252482419641286675
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 334055037126371135, guid: 6488a6690b54cfc4bab318596baf1b43, type: 3}
+    - rid: 252482419641286676
+      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 252482419641286677
+      type: {class: InstructionCharacterTakeOffSkinMesh, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Prefab:
+          m_Property:
+            rid: 252482419641286678
+        m_FromCharacter:
+          m_Property:
+            rid: 252482419641286679
+    - rid: 252482419641286678
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 334055037126371135, guid: 6488a6690b54cfc4bab318596baf1b43, type: 3}
+    - rid: 252482419641286679
+      type: {class: GetGameObjectGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: game-object
+          m_Variable: {fileID: 11400000, guid: ff2362776209fa84db1877ae6cbb382e, type: 2}
+          m_Name:
+            m_String: InvCharacter
+            m_ID: -664263210
+    - rid: 252482452083703985
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: "Dayan\u0131kl\u0131l\u0131k"
+    - rid: 252482452083703987
+      type: {class: InstructionStatsChangeStat, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 252482452083703988
+        m_Stat: {fileID: 11400000, guid: d181067747d134840a05f6c9821b2a2c, type: 2}
+        m_Change:
+          m_Operation: 1
+          m_Value:
+            m_Property:
+              rid: 252482452083703989
+    - rid: 252482452083703988
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 252482452083703989
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 35
+    - rid: 252482452083703990
+      type: {class: InstructionStatsChangeStat, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 252482452083703991
+        m_Stat: {fileID: 11400000, guid: 330b836a0a001465eab2c2eebfd8f80e, type: 2}
+        m_Change:
+          m_Operation: 1
+          m_Value:
+            m_Property:
+              rid: 252482452083703992
+    - rid: 252482452083703991
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 252482452083703992
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 4
+    - rid: 252482452083703993
+      type: {class: InstructionStatsChangeStat, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 252482452083703994
+        m_Stat: {fileID: 11400000, guid: d181067747d134840a05f6c9821b2a2c, type: 2}
+        m_Change:
+          m_Operation: 2
+          m_Value:
+            m_Property:
+              rid: 252482452083703995
+    - rid: 252482452083703994
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 252482452083703995
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 35
+    - rid: 252482452083703996
+      type: {class: InstructionStatsChangeStat, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 252482452083703997
+        m_Stat: {fileID: 11400000, guid: 330b836a0a001465eab2c2eebfd8f80e, type: 2}
+        m_Change:
+          m_Operation: 2
+          m_Value:
+            m_Property:
+              rid: 252482452083703998
+    - rid: 252482452083703997
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 252482452083703998
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 4
+    - rid: 252482452083704094
+      type: {class: GetColorColorsWhite, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 2531411309620625461
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: "\u015Eeref Grevi"
+    - rid: 2531411309620625462
+      type: {class: GetStringTextArea, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Text:
+          m_Text: "\u015Eerefli bir sava\u015F\xE7\u0131 i\xE7in \u015Fovalye grevi."
+    - rid: 2531411309620625463
+      type: {class: GetSpriteInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Sprite: {fileID: 21300000, guid: dca65f6b73c07534b9863cbe27c15b10, type: 3}
+    - rid: 6827530138343440817
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: Savunma

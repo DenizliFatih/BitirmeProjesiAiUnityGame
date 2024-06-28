@@ -1,0 +1,18 @@
+{
+    "name": "ThumbCreator.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:bd6c92325cf495142be8f1ec8e793aad"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
